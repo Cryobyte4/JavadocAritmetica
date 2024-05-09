@@ -160,7 +160,7 @@ A veces, se cometen errores tipográficos o se desea clarificar el mensaje de un
 
 #### Pasos a seguir:
 
-1. Utiliza git commit --amend seguido del flag -m y el nuevo mensaje que deseas para el commit.
+1. Utilizar **git commit --amend** seguido del flag -m y el nuevo mensaje que se desea para el commit.
 
 ```bash
 git commit --amend -m "Nuevo mensaje del commit"
@@ -176,21 +176,21 @@ Crear y fusionar ramas es una práctica común en el desarrollo de software con 
 
 #### Pasos a seguir:
 
-1. **Crear una nueva rama:** Utilizar el comando git branch seguido del nombre de la nueva rama que se desea crear.
+1. **Crear una nueva rama:** Utilizar el comando **git branch** seguido del nombre de la nueva rama que se desea crear.
 ```bash
 git branch nueva_rama
 ```
 ![caso 2 paso 1](./img/caso_2/paso_1.png)
 
 
-2. **Cambiar a la nueva rama:** Utilizar el comando git checkout seguido del nombre de la nueva rama para cambiar a esa rama.
+2. **Cambiar a la nueva rama:** Utilizar el comando **git checkout** seguido del nombre de la nueva rama para cambiar a esa rama.
 ```bash
 git checkout nueva_rama
 ```
 ![caso 2 paso 2](./img/caso_2/paso_2.png)
 
 
-3. **Añadir y confirmar cambios:** Utilizar los comandos **git add** y git **commit** para agregar y confirmar los cambios en la nueva rama.
+3. **Añadir y confirmar cambios:** Utilizar los comandos **git add** y **git commit** para agregar y confirmar los cambios en la nueva rama.
 ```bash
 git add .
 git commit -m "Mensaje descriptivo del commit en la nueva rama"
@@ -198,21 +198,21 @@ git commit -m "Mensaje descriptivo del commit en la nueva rama"
 ![caso 2 paso 3](./img/caso_2/paso_3.png)
 
 
-4. **Cambiar de nuevo a la rama principal:** Utiliza el comando **git checkout** seguido del nombre de la rama principal para cambiar de nuevo a esa rama.
+4. **Cambiar de nuevo a la rama principal:** Se utiliza el comando **git checkout** seguido del nombre de la rama principal para cambiar de nuevo a esa rama.
 ```bash
 git checkout main
 ```
 ![caso 2 paso 4](./img/caso_2/paso_4.png)
 
 
-5. **Fusionar la nueva rama con la rama principal:** Utiliza el comando git merge seguido del nombre de la rama que deseas fusionar con la rama principal.
+5. **Fusionar la nueva rama con la rama principal:** Se utiliza el comando **git merge** seguido del nombre de la rama que se desea fusionar con la rama principal.
 ```bash
 git merge nueva_rama
 ```
 ![caso 2 paso 5](./img/caso_2/paso_5.png)
 
 
-6. **Eliminar la rama (opcional):** Una vez que hayas fusionado la nueva rama con éxito, puedes eliminarla si ya no la necesitas utilizando el comando git branch -d.
+6. **Eliminar la rama (opcional):** Una vez que se haya fusionado la nueva rama con éxito, se puede eliminar si ya no se necesita, utilizando el comando **git branch -d**.
 ```bash
 git branch -d nueva_rama
 ```
